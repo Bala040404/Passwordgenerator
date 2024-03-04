@@ -45,7 +45,7 @@ function App() {
             readOnly
           />
           <button
-            className="h-3/4 border-1 border-blue-700 rounded-r-md bg-blue-600 w-1/6 hover:bg-sky-700"
+            className="h-3/4 border-1 border-blue-700 rounded-r-md bg-blue-600 w-1/6 hover:bg-sky-600"
             onClick={() => {
               passwordRef.current?.focus();
               passwordRef.current?.select();
